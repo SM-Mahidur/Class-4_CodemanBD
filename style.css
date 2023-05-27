@@ -1,0 +1,109 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+
+
+.mainsection{
+        width: 900px;
+        max-height: 100%;
+        text-align: center;
+        background-color: rgb(42, 100, 150);
+        margin: 0 auto;
+}
+
+header{
+        text-align: center;
+        padding: 25px;
+
+}
+.menubar{
+       background-color: #000;
+}
+
+.menubar ul{
+        list-style: none;
+       text-align: center;
+}
+.menubar ul li{
+        display: inline-block;
+
+}
+
+.menubar ul li a{
+        text-decoration: none;
+        display: block;
+        padding: 15px 25px;
+        font-size: 20px;
+        color: white;
+        
+}
+.menubar ul li a:hover{
+                background-color: red;
+                color: pink;
+}
+.menubar a#acti
+{
+        background-color: red;
+                
+}
+.section-image{
+                height: 600px;
+                width: 40%;
+                float: left;
+                background-color: rgb(57, 167, 152);
+}
+.section-image img{
+                margin-top: 150px;
+                border: 2px solid white;
+                border-radius: 50%;
+}
+.sectioin-form{
+        height: 600px;
+        width: 60%;
+        float: left;
+        background-color: rgb(95, 187, 42);
+}
+
+footer{
+        background-color: #000;
+        color: white;
+   
+}
+footer h2,p{
+        padding: 15px;
+        color: white;
+}
+footer h2{
+        padding-top: 15px;
+  
+}
+
+input[type="text"],select,textarea,input[type="number"]{
+                width: 99.6%;
+                display: block;
+                text-align: center;
+                height: 25px;
+                margin: 5px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 19%;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    input[type="submit"],input[type="reset"]:hover{
+                background-color: rgb(62, 62, 146);
+                color: white;
+                cursor: pointer;
+    }
+label{
+       font-size: 18px;
+}
